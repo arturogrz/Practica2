@@ -6,7 +6,7 @@ public class Practica2 {
     Compu laptop1 =  new Compu("HP", "Gris" , 14230,"HP5001","15",4);
     //---------------------------------------------------------------------
     System.out.println ("-----------------------------------");
-    System.out.println ("    Extraemos atributos con GET");
+    System.out.println ("    Extraemos atributos");
     System.out.println ("-----------------------------------");
     System.out.println ("Marca:  " + laptop1.getMarca());
     System.out.println ("Color:  " + laptop1.getColor());
@@ -16,7 +16,7 @@ public class Practica2 {
     System.out.println ("Stock  : " + laptop1.getStock());
     //---------------------------------------------------------------------
     System.out.println ("-----------------------------------");
-    System.out.println ("   Modificamos atributos con SET");
+    System.out.println ("   Modificamos atributos");
     System.out.println ("-----------------------------------");
     laptop1.setPrecio(12700);
     laptop1.setStock(3);
